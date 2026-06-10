@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강남 셔츠룸 블로그 | 마포 성우이벤트 브루탈리즘 공간</title>
+    <meta name="description" content="마포 성우이벤트가 운영하는 강남 셔츠룸. 브로(BRO) 감성의 거친 브루탈리즘 공간에서 특별한 이벤트를 경험하세요. 전화 010-6279-0862.">
+    <meta name="keywords" content="강남 셔츠룸, 마포 성우이벤트, 셔츠룸 추천, 강남 이벤트, 셔츠룸 가격, bro 셔츠룸">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <link rel="canonical" href="https://sf-t3-1779642675702-114.vercel.app/blog">
+    <!-- OG 메타 -->
+    <meta property="og:title" content="강남 셔츠룸 블로그 - 마포 성우이벤트">
+    <meta property="og:description" content="마포 성우이벤트가 운영하는 강남 셔츠룸. 브루탈리즘 감성의 특별한 공간.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://sf-t3-1779642675702-114.vercel.app/blog">
+    <style>
+        *,
+        *::before,
+        *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            font-size: 16px;
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Inter', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            text-transform: uppercase;
+            color: #f5f5f5;
+        }
+        h1 {
+            font-size: 3.5rem;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            text-shadow: 4px 4px 0 #2a2a2a;
+        }
+        h2 {
+            font-size: 2.2rem;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+            border-left: 6px solid #ff4444;
+            padding-left: 1rem;
+        }
+        h3 {
+            font-size: 1.6rem;
+            line-height: 1.3;
+            margin-bottom: 0.75rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            font-size: 1.05rem;
+            color: #c0c0c0;
+        }
+        a {
+            color: #ff6666;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        a:hover {
+            color: #ff4444;
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            width: 100%;
+        }
+        section {
+            padding: 4rem 0;
+            border-bottom: 2px solid #333;
+        }
+        section:last-of-type {
+            border-bottom: none;
+        }
+        .section-gap {
+            height: 2rem;
+        }
+        /* Navigation */
+        nav {
+            background: #111;
+            padding: 1rem 0;
+            border-bottom: 3px solid #ff4444;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        nav .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav .logo a {
+            font-size: 1.4rem;
+            font-weight: 900;
+            letter-spacing: 0.05em;
+            color: #f5f5f5;
+            text-transform: uppercase;
+        }
+        nav .logo a:hover {
+            color: #ff4444;
+            text-decoration: none;
+        }
+        nav .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        nav .nav-links a {
+            color: #c0c0c0;
+            font-weight: 500;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 0.25rem 0;
+            border-bottom: 2px solid transparent;
+            transition: border-color 0.2s;
+        }
+        nav .nav-links a:hover {
+            color: #ff4444;
+            border-bottom-color: #ff4444;
+            text-decoration: none;
+        }
+        .hamburger-menu {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 5px;
+            background: none;
+            border: none;
+            padding: 0.5rem;
+        }
+        .hamburger-menu span {
+            width: 28px;
+            height: 3px;
+            background: #f5f5f5;
+            display: block;
+            transition: all 0.3s;
+        }
+        @media (max-width: 768px) {
+            .hamburger-menu {
+                display: flex;
+            }
+            nav .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                right: 0;
+                background: #111;
+                flex-direction: column;
+                padding: 1.5rem 2rem;
+                gap: 1.2rem;
+                border-bottom: 3px solid #ff4444;
+            }
+            nav .nav-links.active {
+                display: flex;
+            }
+            h1 {
+                font-size: 2.5rem;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+            .container {
+                padding: 0 1rem;
+            }
+        }
+        .tel-link {
+            display: inline-block;
+            background: #ff4444;
+            color: #fff !important;
+            padding: 0.6rem 1.5rem;
+            font-weight: 700;
+            font-size: 1.1rem;
+            border-radius: 2px;
+            transition: background 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            border: none;
+        }
+        .tel-link:hover {
+            background: #cc0000;
+            text-decoration: none;
+        }
+        /* Blog specific */
+        .blog-post {
+            background: #222;
+            padding: 2.5rem 2rem;
+            border-left: 6px solid #ff4444;
+            margin-bottom: 2rem;
+        }
+        .blog-post .meta {
+            font-size: 0.85rem;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 0.5rem;
+        }
+        .blog-post .meta span {
+            color: #ff6666;
+        }
+        .blog-post p {
+            font-size: 1.05rem;
+            line-height: 1.8;
+        }
+        .blog-post blockquote {
+            border-left: 4px solid #ff4444;
+            padding-left: 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: #aaa;
+            font-size: 1.1rem;
+        }
+        .blog-post .highlight-box {
+            background: #2a2a2a;
+            padding: 1.5rem;
+            border: 2px dashed #444;
+            margin: 1.5rem 0;
+        }
+        footer {
+            background: #111;
+            padding: 2rem 0;
+            text-align: center;
+            border-top: 3px solid #ff4444;
+            margin-top: auto;
+        }
+        footer p {
+            font-size: 0.9rem;
+            color: #666;
+            margin: 0;
+        }
+        footer a {
+            color: #ff6666;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <a href="/">BRO 셔츠룸</a>
+            </div>
+            <button class="hamburger-menu" aria-label="메뉴 열기" onclick="this.nextElementSibling.classList.toggle('active')">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="/">홈</a></li>
+                <li><a href="/about">소개</a></li>
+                <li><a href="/blog">블로그</a></li>
+                <li><a href="/contact">문의</a></li>
+                <li><a href="tel:010-6279-0862" class="tel-link">010-6279-0862</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section>
+            <div class="container">
+                <h1>블로그</h1>
+                <p style="font-size: 1.2rem; color: #aaa; margin-bottom: 2rem;">진짜 브로들끼리 쌓아가는 이야기 — raw하고 솔직하게.</p>
+
+                <article class="blog-post">
+                    <div class="meta">2025년 3월 24일 · <span>강남 셔츠룸</span> · by 마포 성우</div>
+                    <h2>강남 셔츠룸, 처음 가면 쫄아? 걱정 마, 브로</h2>
+                    <p>야, 형. 강남 셔츠룸 처음 간다는 그 눈빛, 나도 잘 알아. 나도 첫 방문 때는 진짜 손이 덜덜 떨렸어. "여기서 나 뭐 해야 되지?" "혼자 가도 되나?" 이런 생각부터 꼬리에 꼬리를 물고. 근데 막상 가보니까 그냥 형들이랑 편하게 맥주 한잔 하는 분위기더라고? 그래서 오늘은 내 경험담을 좀 풀어볼게. 이 글 하나면 너도 더 이상 쫄지 않고 들어갈 수 있을 거야.</p>
+
+                    <h3 style="margin-top: 2rem;">처음 문 열었을 때의 그 느낌</h3>
+                    <p>강남역 5번 출구에서 걸어가는데, 건물 간판부터 뭔가 '아, 여기다' 싶었어. 입구 들어서자마자 콘크리트 벽에 LED 조명이 드문드문 박혀 있고, 공기 중에 묵직한 베이스 음악이 흘러나오더라고. 좀 거친 분위기? 근데 거친 게 나쁜 게 아니라 오히려 '여기서는 가면 벗어도 되겠다' 싶은 안도감이 들었어. 직원 형이 "어서 와, 브로" 하면서 반겨주는데, 그 말 한마디에 긴장이 싹 풀리더라.</p>
+
+                    <blockquote>
+                        "셔츠룸은 처음이지만 여기 분위기는 처음 보는 사람도 편하게 만든다는 게 느껴졌어요. 마치 오래된 친구 집에 놀러 온 기분?" — 첫 방문 고객 후기 중
+                    </blockquote>
+
+                    <h3>그래서, 거기서 뭐 하는데?</h3>
+                    <p>자, 가장 궁금한 부분이지? 솔직히 말하면, 셔츠룸에서 하는 '이벤트'는 생각보다 단순해. 손님들이랑 직원들이 테이블에 둘러앉아서 술도 마시고, 이야기도 하고, 가끔은 게임도 해. 근데 중요한 건 '어떻게 하느냐'보다 '어떤 분위기냐'더라고. 우리 마포 성우이벤트 쪽은 특히 '브로 감성'을 강조해. 무슨 말이냐면, 서로 어색하게 껄끄러운 게 아니라 형 동생 하면서 자연스럽게 섞이는 거지. </p>
+
+                    <div class="highlight-box">
+                        <p style="margin: 0; font-weight: 600; color: #ff6666;">💡 브로 팁</p>
+                        <p style="margin-top: 0.5rem;">처음 가면 술은 한두 잔만 천천히 마셔. 분위기 타는 건 둘째치고, 너가 편해야 진짜 재밌거든. 그리고 직원한테 "형, 나 처음인데 좀 알려줘" 하고 말 걸어봐. 다들 잘 도와줄 거야.</p>
+                    </div>
+
+                    <h3>셔츠룸 가격, 미리 알면 덜 부담</h3>
+                    <p>형들아, 가격 때문에 고민되면 그냥 전화해. 010-6279-0862로 바로 물어보는 게 제일 정확해. 대충 말해주자면, 시간당 기본 시스템에 따라 다르고, 이벤트나 시간대에 따라 프로모션도 있어. 처음 가는 사람들은 보통 2~3시간 코스로 많이 들어가. 너무 길게 잡으면 부담될 수 있으니까 첫 경험은 짧게 가져가는 것도 방법이야. 돈 아깝지 않게, 알차게 즐기려면 미리 물어보는 게 짱이야.</p>
+
+                    <h3>내가 생각하는 '진짜' 셔츠룸의 맛</h3>
+                    <p>사실 나도 이쪽 일을 오래 하면서 수많은 셔츠룸을 가봤어. 어떤 데는 너무 형식적이고, 어떤 데는 너무 노골적이고. 근데 우리 마포 성우이벤트가 운영하는 이 공간은 '있는 그대로'를 보여주는 것 같아. 거친 콘크리트 벽, 삐뚤빼뚤한 조명, 그리고 형들이랑 나누는 거친 웃음. 이게 브루탈리즘의 진짜 매력이 아닐까? 가식 없는 공간에서 가식 없는 사람들을 만나는 거.</p>
+
+                    <p style="margin-top: 1.5rem;">마지막으로, 강남 셔츠룸에 처음 갈 예정이라면 너무 긴장하지 마. 그냥 "나 왔어, 형!" 하면서 문 열고 들어가. 나머지는 분위기가 다 알아서 해줄 테니까. 나중에 또 이런 이야기 풀어줄게. 다음 글에서는 '셔츠룸에서 하면 안 되는 3가지' 같은 거 준비해볼까? 기대해, 브로.</p>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2>자주 묻는 질문</h2>
+                <div style="margin-top: 2rem;">
+                    <div style="margin-bottom: 1.5rem; padding: 1rem 0; border-bottom: 1px solid #333;">
+                        <h3 style="font-size: 1.2rem; margin-bottom: 0.3rem;">Q: 처음인데 혼자 가도 되나요?</h3>
+                        <p>A: 당연히 됩니다, 브로. 오히려 혼자 오는 손님이 많아요. 직원들이 옆에서 편하게 케어해주니까 걱정 노노.</p>
+                    </div>
+                    <div style="margin-bottom: 1.5rem; padding: 1rem 0; border-bottom: 1px solid #333;">
+                        <h3 style="font-size: 1.2rem; margin-bottom: 0.3rem;">Q: 예약은 꼭 해야 하나요?</h3>
+                        <p>A: 워크인도 가능하지만, 원하는 시간대를 보장받으려면 전화 예약이 짱이에요. 010-6279-0862로 연락 주세요.</p>
+                    </div>
+                    <div style="margin-bottom: 1.5rem; padding: 1rem 0; border-bottom: 1px solid #333;">
+                        <h3 style="font-size: 1.2rem; margin-bottom: 0.3rem;">Q: 주차는 어디에 하나요?</h3>
+                        <p>A: 건물 지하에 주차장 있어요. 다만 자리가 많지 않으니 대중교통을 추천합니다. 강남역에서 걸어오면 5분!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 마포 성우이벤트 · 강남
+</body>
+</html>
