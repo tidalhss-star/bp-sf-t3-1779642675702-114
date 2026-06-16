@@ -1,38 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bp-sf-t3-1779642675702-114.netlify.app/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://tidalhss-star.github.io/bp-sf-t3-1779642675702-114/</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://bp-sf-t3-1779642675702-114.netlify.app/about.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://tidalhss-star.github.io/bp-sf-t3-1779642675702-114/about.html</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://bp-sf-t3-1779642675702-114.netlify.app/blog.html</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://tidalhss-star.github.io/bp-sf-t3-1779642675702-114/blog.html</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://bp-sf-t3-1779642675702-114.netlify.app/posts/review-002-1ppt20x.html</loc>
+    <loc>https://tidalhss-star.github.io/bp-sf-t3-1779642675702-114/posts/field_note-002-tzzqjk.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-sf-t3-1779642675702-114/posts/review-001-1dap2f0.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://tidalhss-star.github.io/bp-sf-t3-1779642675702-114/posts/review-002-1ppt20x.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bp-sf-t3-1779642675702-114.netlify.app/posts/t3link-001-1ppt20x.html</loc>
+    <loc>https://tidalhss-star.github.io/bp-sf-t3-1779642675702-114/posts/t3link-001-1ppt20x.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://bp-sf-t3-1779642675702-114.netlify.app/feed.xml</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://tidalhss-star.github.io/bp-sf-t3-1779642675702-114/feed.xml</loc>
+    <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
